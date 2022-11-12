@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import ReduxContext from '../redux/contexts/ReduxContext';
+import ReduxContext from '../contexts/ReduxContext';
 
 export default function useReduxState() {
   const store = useContext(ReduxContext);

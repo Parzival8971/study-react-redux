@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import ReduxContext from '../redux/contexts/ReduxContext';
+import ReduxContext from '../contexts/ReduxContext';
 
 export default function useReduxDispatch() {
   const store = useContext(ReduxContext);
